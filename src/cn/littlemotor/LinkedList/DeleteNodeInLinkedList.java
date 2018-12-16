@@ -4,7 +4,7 @@ package cn.littlemotor.LinkedList;
  * @author littlemotor
  * @date 18.12.15
  *
- * #237
+ *  #237
  *
  * Write a function to delete a node (except the tail) in a singly linked list, given only access to that node.
  *
