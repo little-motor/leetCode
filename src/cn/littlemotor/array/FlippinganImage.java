@@ -35,11 +35,8 @@ public class FlippinganImage {
     int[][] result = new int[high][wide];
     for (int i = 0; i < high; i++){
       for (int j = 0; j < wide; j++){
-        if (A[i][j] == 0){
-          result[i][wide - j - 1] = 1;
-        } else {
-          result[i][wide - j - 1] = 0;
-        }
+        //异或
+        result[i][wide - j - 1] = 1 ^ A[i][j];
       }
     }
     return result;
